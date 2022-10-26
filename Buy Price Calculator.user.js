@@ -7,9 +7,10 @@
 // @match        https://www.futbin.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=futbin.com
 // @grant        none
-// @require http://code.jquery.com/jquery-latest.js
+// @require https://code.jquery.com/jquery-3.6.1.min.js
+// @require https://code.jquery.com/ui/1.13.1/jquery-ui.min.js
 // ==/UserScript==
-var $ = window.jQuery;
+var $ = window.$;
 
 $(document).ready(function() {
     let div2 = document.createElement("div")

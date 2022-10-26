@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Buy Price Calculator
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @updateURL    https://github.com/xPokerr/Buy-Price-Calculator/blob/main/Buy%20Price%20Calculator.user.js
 // @downloadURL  https://github.com/xPokerr/Buy-Price-Calculator/blob/main/Buy%20Price%20Calculator.user.js
 // @description  try to take over the world!

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Buy Price Calculator
 // @namespace    http://tampermonkey.net/
-// @version      1.1.0
+// @version      1.1.1
 // @description  try to take over the world!
 // @author       Zano
 // @match        https://www.futbin.com/*

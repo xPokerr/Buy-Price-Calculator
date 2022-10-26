@@ -1,14 +1,12 @@
 // ==UserScript==
 // @name         Buy Price Calculator
 // @namespace    http://tampermonkey.net/
-// @version      1.1.1
+// @version      1.1.2
 // @description  try to take over the world!
 // @author       Zano
 // @match        https://www.futbin.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=futbin.com
 // @grant        none
-// @require https://code.jquery.com/jquery-3.6.1.min.js
-// @require https://code.jquery.com/ui/1.13.1/jquery-ui.min.js
 // ==/UserScript==
 var $ = window.$;
 
@@ -61,8 +59,8 @@ $(document).ready(function() {
         diva.innerText = lupo
     }
 
-    $(".form-group")[0].children[0].addEventListener("click", function() {
-        console.log("amogues")
+    $("button.btn-danger[onclick='clearInput()']")[0].addEventListener("click", function() {
+        //console.log("amogues")
         lupo = ""
         diva.innerText = lupo
         $(".diva2_input")[0].value = 0
